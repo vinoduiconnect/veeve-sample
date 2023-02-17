@@ -1,0 +1,88 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+/* VARIABLES CSS */
+
+/* Fonts */
+$gentium-font: 'Gentium Book Plus', serif;
+$inconsolata-font: 'Inconsolata', monospace;
+$opensans-font: 'Open Sans', sans-serif;
+$Playfair-font: 'Playfair Display', serif;
+
+/* colors */
+$black: #000000;
+$yellow: #ffea58; 
+$white: #ffffff;
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; }
+  
+  body {
+    color: #000;
+    font-family: $opensans-font, sans-serif;
+    font-size: 16px; }
+  :focus {
+    outline: none; }
+  
+  ::-moz-focus-inner {
+    border: 0; }
+  a, a:hover {
+    color: #000;
+    text-decoration: none; }
+  
+  img a {
+    border: 0; }
+  
+  ul {
+    list-style: none;
+    padding: 0; }
+  
+    .btn.focus, .btn:focus, .form-control:focus{
+      -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none; 
+    }
+    
+  button:focus,
+  select .custom-select:focus,
+  input[type=text],
+  input[type=email],
+  input[type=number] {
+    outline: none; }
+
+    $width:100%;
+$bg-color:#ffffff;
+$veeve-voices-max-width:840px;
+$display-flex:flex;
+$text-align-center:center;
+$text-align-left:left;
+$text-color:#000000;
+$sub-title-text-color:#606060;
+$grey-bg:#f9f9f9;
+$h2-font-size-small : 32px;
+$h2-font-size-large : 48px;
+$h3-font-size-small : 22px;
+$h4-font-size-small : 14px;
+$p-font-size-mobile : 15px;
+$p-font-size-small  : 16px;
+$p-font-size-medium : 17px;
+$p-font-size-large  : 19px;
+$h2-font-size-small: 40px;
+$btn-bg:#ffea58;
+$max-width:990px;
+$hr-border:#797979;
+
+// $grey-max-width:850px;
+// Weights
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
